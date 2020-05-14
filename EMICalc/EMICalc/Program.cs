@@ -20,7 +20,7 @@ namespace EMICalc
         public void Run()
         {
             r = R / (12.0 * 100); // Rate per Month
-            //EMI = [P x r x (1+r)^N]/[(1+r)^N - 1]
+            //EMI = [P * r * (1+r)^N]/[(1+r)^N - 1]
             EMI = (P * r * Math.Pow((1 + r), N)) / (Math.Pow((1 + r), N) - 1);
 
             Console.WriteLine("\nPrinicipal={0}\nInterest per Annum={1}\nNumber of monthly installments={2}",P,R,N);
