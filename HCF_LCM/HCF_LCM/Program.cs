@@ -148,7 +148,10 @@ namespace HCF_LCM
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter How many numbers would you like to enter.");
+            Console.WriteLine("Enter a count of Numbers");
+            Console.WriteLine("Ex:- Find HCF of 108, 360 and 600.");
+            Console.WriteLine("(in this problem 3 numbers are given to find HCF so, we should enter 3)");
+            Console.WriteLine("On How many numbers would you like to run this code of HCF and LCM ?");
             int lstcount = Convert.ToInt32(Console.ReadLine());
             List<Num> Nums = new List<Num>();
 
