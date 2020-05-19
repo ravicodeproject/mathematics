@@ -23,7 +23,7 @@ namespace RationalNumbers
         // methods
         public void reduce()
         {
-            //https://www.calculatorsoup.com/calculators/math/fractionssimplify.php
+            
             Int64 a = 0;
             Int64 b = 0;
             Int64 rem = 0;
